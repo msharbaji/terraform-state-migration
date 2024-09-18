@@ -1,0 +1,7 @@
+global:
+  backend_type: "local"
+  backend:
+    path: "state"
+  accounts:
+    aws_test_1: "1234567890123456"
+    aws_test_2: "1234567890123456"

@@ -1,12 +1,12 @@
 # variables.tf
-variable "file_name" {
+variable "gcp_file_name1" {
   type        = string
   description = "The name of the file to create"
-  default     = "example.txt"
+  default     = "gcp_file1.txt"
 }
 
-variable "file_content" {
+variable "gcp_file_content1" {
   type        = string
   description = "The content to write into the file"
-  default     = "Hello, this is an example file created by Terraform!"
+  default     = "Hello, here is gcp_file1 example file created by Terraform!"
 }

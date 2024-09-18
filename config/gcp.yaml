@@ -1,0 +1,10 @@
+global:
+  backend_type: "local"
+  backend:
+    path: "/Users/malsharbaji/git-repos/github/msharbaji/terraform-state-migration/state"
+
+#global:
+#  backend_type: "postgres"
+#  backend:
+#    connection_string: "postgres://localhost:5432/terraform_backend?sslmode=disable"
+#    schema_name: "terraform_remote_state"
